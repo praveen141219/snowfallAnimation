@@ -1,0 +1,16 @@
+body {
+  background: #323975;
+  overflow: hidden;
+}
+
+.far {
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  animation: snow infinite linear;
+}
+@keyframes snow {
+  to {
+    transform: translateY(105vh);
+  }
+}
